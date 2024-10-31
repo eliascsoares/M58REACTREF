@@ -1,7 +1,7 @@
-function Box({name}) {
+function Box({name, age}) {
     return(
         <>
-            <h2>{name}</h2>
+            <h2>{name}{age}</h2>
         </>
     )
 }
